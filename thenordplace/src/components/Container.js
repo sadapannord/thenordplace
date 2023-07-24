@@ -3,6 +3,7 @@ import NavTabs from "./NavTabs";
 import Paracord from "./pages/Paracord";
 import Sewed from "./pages/Sewed";
 import Stickers from "./pages/Stickers";
+import Home from "./pages/Home";
 import Footer from "./footer/index";
 import Header from "./header/index";
 
@@ -20,7 +21,7 @@ export default function Container() {
     if (currentPage === "Resume") {
       return <Stickers />;
     }
-    return <About />;
+    return <Home />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
