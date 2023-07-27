@@ -12,7 +12,7 @@ export default function Container() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === "Contact") {
+    if (currentPage === "Paracord") {
       return <Paracord />;
     }
     if (currentPage === "Project") {

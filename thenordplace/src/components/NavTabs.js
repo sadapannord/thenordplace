@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#Sewed"
+          href="#sewed"
           onClick={() => handlePageChange("Sewed")}
           className={currentPage === "Sewed" ? "nav-link active" : "nav-link"}
         >
