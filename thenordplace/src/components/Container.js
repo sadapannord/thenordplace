@@ -15,10 +15,10 @@ export default function Container() {
     if (currentPage === "Paracord") {
       return <Paracord />;
     }
-    if (currentPage === "Project") {
+    if (currentPage === "Sewed") {
       return <Sewed />;
     }
-    if (currentPage === "Resume") {
+    if (currentPage === "Stickers") {
       return <Stickers />;
     }
     return <Home />;
