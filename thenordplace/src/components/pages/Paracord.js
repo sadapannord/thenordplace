@@ -1,9 +1,10 @@
 import React from "react";
+import Leashes from "./Leashes";
 
 export default function Paracord() {
   return (
     <div>
-      <p>Leashes</p>
+      <Leashes />
       <p>Collars</p>
       <p>Key chains</p>
     </div>
