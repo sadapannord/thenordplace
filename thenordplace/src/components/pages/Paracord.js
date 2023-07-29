@@ -10,3 +10,4 @@ export default function Paracord() {
     </div>
   );
 }
+//  add new navs for paracord
