@@ -5,6 +5,8 @@ export default function Sewed() {
   return (
     <div>
       <p>Coin Pouch</p>
+      <p>Clutch</p>
+      <p>Quilts</p>
       <img src={blueLake} alt="MT"></img>
     </div>
   );

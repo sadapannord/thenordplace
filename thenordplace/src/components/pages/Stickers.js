@@ -5,6 +5,7 @@ export default function Stickers() {
     <div>
       <p>Customizable</p>
       <p>Team Motivation</p>
+      
     </div>
   );
 }
