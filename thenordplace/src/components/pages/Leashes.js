@@ -5,6 +5,7 @@ export default function Leashes() {
     <div>
       <p>6 ft premade</p>
       <p>Customizable</p>
+      <p>10 ft pre made</p>
     </div>
   );
 }
