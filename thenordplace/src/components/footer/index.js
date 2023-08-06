@@ -32,6 +32,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div>
+          <p>Contact</p>
+          <ul>Phone: 303-332-7351</ul>
+          <ul>Email: sadapan@gmail.com</ul>
+        </div>
       </div>
     </footer>
   );
