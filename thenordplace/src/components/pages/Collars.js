@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Collars() {
-  return <div></div>;
+  return (
+    <div>
+      <p>Cobra</p>
+    </div>
+  );
 }
