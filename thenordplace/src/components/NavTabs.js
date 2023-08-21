@@ -35,6 +35,15 @@ function NavTabs({ currentPage, handlePageChange }) {
             Stickers
           </a>
         </ul>
+        <ul class="column">
+          <a
+            href="#cart"
+            onClick={() => handlePageChange("SCart")}
+            className={currentPage === "Cart" ? "nav-link active" : "nav-link"}
+          >
+            Cart
+          </a>
+        </ul>
       </ul>
     </div>
   );
