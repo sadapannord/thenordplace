@@ -2,7 +2,7 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="row">
+    <div className="row">
       <ul className="nav nav-tabs">
         <ul class="column">
           <a
@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Paracord
           </a>
         </ul>
-        <ul class="column">
+        <ul className="column">
           <a
             href="#sewed"
             onClick={() => handlePageChange("Sewed")}
@@ -24,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Sewed
           </a>
         </ul>
-        <ul class="column">
+        <ul className="column">
           <a
             href="#stickers"
             onClick={() => handlePageChange("Stickers")}
@@ -35,10 +35,10 @@ function NavTabs({ currentPage, handlePageChange }) {
             Stickers
           </a>
         </ul>
-        <ul class="column">
+        <ul className="column">
           <a
             href="#cart"
-            onClick={() => handlePageChange("SCart")}
+            onClick={() => handlePageChange("Cart")}
             className={currentPage === "Cart" ? "nav-link active" : "nav-link"}
           >
             Cart

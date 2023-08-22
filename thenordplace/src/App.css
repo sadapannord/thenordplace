@@ -65,6 +65,7 @@
   margin: 25px;
 }
 
+
 header {
   background-image: url("./assets/lake.png");
   background-size:100%;
@@ -72,6 +73,9 @@ header {
   background-repeat: no-repeat;
 }
 
+.sewed {
+  background-image:("./assets/3sisters.jpg")
+}
 .middle {
   transition: .5s ease;
   opacity: 0;

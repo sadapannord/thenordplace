@@ -4,7 +4,7 @@ import KeyChains from "./KeyChains";
 import Collars from "./Collars";
 
 export default function Paracord() {
-  const [paraSub, setParaSub] = useState("Leashes");
+  const [paraSub, setParaSub] = useState("Paracord");
   const changeParaSub = () => {
     if (paraSub === "Leashes") {
       return <Leashes />;
@@ -15,7 +15,6 @@ export default function Paracord() {
     if (paraSub === "KeyChains") {
       return <KeyChains />;
     }
-    return <Leashes />;
   };
   return (
     <div>
