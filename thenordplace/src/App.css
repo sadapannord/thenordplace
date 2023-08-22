@@ -74,7 +74,14 @@ header {
 }
 
 .sewed {
-  background-image:("./assets/3sisters.jpg")
+  background-image: url("./assets/3sisters.jpg");
+  background-repeat: no-repeat;
+  padding: auto;
+}
+
+.productPic {
+  height: 200px;
+  width: auto
 }
 .middle {
   transition: .5s ease;

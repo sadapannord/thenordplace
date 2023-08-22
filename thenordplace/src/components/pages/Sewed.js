@@ -6,10 +6,14 @@ export default function Sewed() {
   return (
     <div className="sewed">
       <p>Coin Pouch</p>
+      <img
+        className="productPic"
+        src={bluePaislee}
+        alt="blue paislee and feather pouch"
+      ></img>
       <p>Clutch</p>
       <p>Quilts</p>
-      <img className= "productPic" src={bluePaislee} alt="blue paislee and feather pouch"></img>
-      <img className= "productPic" src={blueLake} alt="MT"></img>
+      <img className="productPic" src={blueLake} alt="MT"></img>
     </div>
   );
 }
