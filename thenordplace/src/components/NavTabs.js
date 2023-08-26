@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="row">
       <ul className="nav nav-tabs">
-        <ul class="column">
+        <ul className="column">
           <a
             href="#paracord"
             onClick={() => handlePageChange("Paracord")}

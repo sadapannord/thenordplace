@@ -1,19 +1,33 @@
-import React from "react";
-import blueLake from "../../assets/blue_lake_hike.jpg";
-import bluePaislee from "../../assets/paislee_feathers.jpg";
+import React, { useState } from "react";
+import Quilt from "./Sewed/Quilt";
+import CoinPouch from "./Sewed/CoinPouch";
+import Clutch from "./Sewed/Clutch";
 
 export default function Sewed() {
+  const [sewedSub, setSewedSub] = useState("Sewed");
+  const changeSewedSub = () => {
+    if (sewedSub === "CoinPouch") {
+      return <CoinPouch />;
+    }
+    if (sewedSub === "Clutch") {
+      return <Clutch />;
+    }
+    if (sewedSub === "CoinPouch") {
+      return <Quilt />;
+    }
+  };
   return (
     <div className="sewed">
-      <p>Coin Pouch</p>
-      <img
-        className="productPic"
-        src={bluePaislee}
-        alt="blue paislee and feather pouch"
-      ></img>
-      <p>Clutch</p>
-      <p>Quilts</p>
-      <img className="productPic" src={blueLake} alt="MT"></img>
+      <li onClick={() => setSewedSub("CoinPouch")}>
+        <a href="#">Coin Pouch</a>
+      </li>
+      <li onClick={() => setSewedSub("Clutch")}>
+        <a href="#">Clutch</a>
+      </li>
+      <li onClick={() => setSewedSub("Quilt")}>
+        <a href="#">Quilt</a>
+      </li>
+      {changeSewedSub}
     </div>
   );
 }
