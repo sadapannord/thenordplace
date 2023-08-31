@@ -10,6 +10,7 @@ export default function CoinPouch() {
         src={bluePaislee}
         alt="blue paislee and feather pouch"
       ></img>
+      {/* add on click function that adds to cart */}
     </div>
   );
 }

@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="m-0 headText">The Nord Place</h1>
 
         <p className="m-0 headText" style={{ fontWeight: "700" }}>
-          A Place to sell knick-nacks made by a bored Nord.
+          A Place to sell knick-nacks made by a bored Nord
         </p>
       </div>
     </header>
