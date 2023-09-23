@@ -6,6 +6,7 @@ export default function Cart() {
       {/* once click "add to cart" show items here */}
       {/* add options to remove from cart */}
       {/* get payment working */}
+      {/* add css */}
     </div>
   );
 }
